@@ -58,15 +58,9 @@ class _ContentHome extends StatelessWidget {
                             Card(
                               child: Column(
                                 children: [
-                                  Container(
-                                    decoration: BoxDecoration(
-                                      borderRadius:
-                                          BorderRadius.all(Radius.circular(50)),
-                                    ),
-                                    child: Image.asset(
-                                      'pic.jpeg',
-                                      fit: BoxFit.contain,
-                                    ),
+                                  Image.network(
+                                    'https://rydoo-application.web.app/assets/pic.jpeg',
+                                    fit: BoxFit.contain,
                                   ),
                                   Divider(),
                                   GestureDetector(
@@ -212,7 +206,10 @@ class _ContentPageSix extends StatelessWidget {
               Divider(),
               Button(
                 text: 'view code',
-                handleTap: () {},
+                handleTap: () {
+                  html.window.open(
+                      'https://github.com/laurensdewaele/rydoo', '_blank');
+                },
               ),
               Divider(),
               AppText(
