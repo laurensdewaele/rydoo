@@ -1,0 +1,30 @@
+name: rydoo
+description: Flutter web app for Rydoo application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flare_flutter: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/rydoo_flutter.flr
+    - assets/pic.jpeg
+
+  fonts:
+    - family: BuenosAires
+      fonts:
+        - asset: assets/buenos_aires_regular.ttf
+        - asset: assets/buenos_aires_bold.ttf
+          weight: 700
+
