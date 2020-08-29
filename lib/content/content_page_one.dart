@@ -45,7 +45,7 @@ class ContentPageOne extends StatelessWidget {
                               child: Column(
                                 children: [
                                   Image.network(
-                                    'https://rydoo-application.web.app/assets/pic.jpeg',
+                                    'https://rydoo-application.web.app/assets/pic.png',
                                     fit: BoxFit.contain,
                                   ),
                                   Divider(),

@@ -19,7 +19,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/rydoo_flutter.flr
-    - assets/pic.jpeg
+    - assets/pic.png
 
   fonts:
     - family: BuenosAires
